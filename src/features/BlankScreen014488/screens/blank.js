@@ -23,7 +23,7 @@ export default class Blank extends React.Component {
     }
   }
 
-  state = { TextInput_3: "", Switch_7: true }
+  state = { TextInput_3: "" }
 
   render = () => (
     <View>
@@ -36,12 +36,6 @@ export default class Blank extends React.Component {
       <Button title="Press me!" onPress={() => alert("Pressed!")} />
       <Button title="Press me!" onPress={() => alert("Pressed!")} />
       <Text>Sample text content</Text>
-      <Switch
-        trackColor={{ false: "#C0CCDA", true: "#409EFF" }}
-        style={styles.Switch_7}
-        value={this.state.Switch_7}
-        onValueChange={nextChecked => this.setState({ Switch_7: nextChecked })}
-      />
     </View>
   )
 }
@@ -51,11 +45,18 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
   Text_2: {},
   TextInput_3: {},
   Button_4: {},
   Button_5: {},
   Text_6: {},
-  Switch_7: { alignSelf: "flex-start" }
+  Switch_7: { alignSelf: "flex-start" },
+  View_1: {},
+  Text_2: {},
+  TextInput_3: {},
+  Button_4: {},
+  Button_5: {},
+  Text_6: {}
 })
