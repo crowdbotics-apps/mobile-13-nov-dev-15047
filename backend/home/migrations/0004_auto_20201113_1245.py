@@ -6,38 +6,38 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0003_auto_20201113_1241'),
+        ("home", "0003_auto_20201113_1241"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='homepage',
-            name='hgfhfgfghfhg',
+            model_name="homepage",
+            name="hgfhfgfghfhg",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='homepage',
-            name='hgjhgjhg',
+            model_name="homepage",
+            name="hgjhgjhg",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='homepage',
-            name='hjjgjhgjgh',
+            model_name="homepage",
+            name="hjjgjhgjgh",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='homepage',
-            name='jhgjhghjg',
+            model_name="homepage",
+            name="jhgjhghjg",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='homepage',
-            name='jhgjhgjgjhgfhjg',
+            model_name="homepage",
+            name="jhgjhgjgjhgfhjg",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='homepage',
-            name='ytrtyrytryr',
+            model_name="homepage",
+            name="ytrtyrytryr",
             field=models.BigIntegerField(blank=True, null=True),
         ),
     ]
